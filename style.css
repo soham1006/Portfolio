@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position:absolute;
+  background-color: rgb(209, 204, 204);
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 35px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 40px;
+  padding: 25px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main {
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.InfoContainer{
+    height: 60vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Pic img{
+    height: 60vh;
+}
+
+.Info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+font-size: 60px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about{
+font-size: 40px;
+}
+
+.moreabout{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.buttons button{
+margin-top: 15px;
+border-radius: 6px;
+background-color: dodgerblue;
+color: white;
+padding: 9px 14px;
+margin: 0px;
+cursor: pointer;
+row-gap: 5px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue;
+}
+
+ /* @media(max-width : 1115px){
+  .sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+  }
+}  */
+
+.hamburger {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-top: 10px;
+}
+
+.cross{
+  margin-left: 150px;
+  margin-top:  5px;
+}
+
+.sidebarGo{
+  position: absolute;
+  transform: translate(-443px, 0px);
+}

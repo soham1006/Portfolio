@@ -3,13 +3,13 @@ import SwiperCarousel from '../components/SwiperCarousel';
 
 const blogs = [
   {
-    title: 'Why I Chose Full-Stack Development',
-    description: `As a student exploring tech, I found full-stack dev both exciting and empowering. It lets me build full apps, from UI to backend logic. I love the blend of design and problem-solving.`,
-    link: '#'
+      title:"Web Development Internship",
+      description:"During this time, I worked on a real-world project, building responsive and interactive web interfaces. I improved my frontend skills, followed best practices, and collaborated effectively with the team.This internship helped me grow both technically and professionally.",
+      link:"#"
   },
   {
-    title: 'Building a Chat App using Socket.IO',
-    description: 'A breakdown of how I created a real-time encrypted chat room using React, Node.js, Socket.IO, and MongoDB. The app supports private messaging, live typing indicators, and room-based architecture — ideal for secure group communication.',
+    title: 'Building a Hotel & Restaurant Website ',
+    description: ` It features a clean, responsive UI using React and Bootstrap, with secure backend services powered by Node.js, Express, and MongoDB. Users can choose dishes, pin their delivery location on a map, verify via email OTP, and pay using UPI QR. Admins can manage orders, dishes, and images through a custom control panel. The site offers a seamless and modern food ordering experience.`,
     link: '#'
   },
   {

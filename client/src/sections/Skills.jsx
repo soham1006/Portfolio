@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBootstrap } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiExpress, SiSocketdotio, SiCplusplus, SiPostman } from 'react-icons/si';
+import { SiMongodb, SiMysql, SiExpress, SiSocketdotio, SiCplusplus, SiPostman, SiCloudinary, SiNetlify, SiRender} from 'react-icons/si';
+import { VscVscode } from "react-icons/vsc";
 
 const skillGroups = {
   Frontend: [
@@ -13,7 +14,7 @@ const skillGroups = {
   Backend: [
     { icon: <FaNodeJs color="#3c873a" />, label: 'Node.js' },
     { icon: <SiExpress color="#ffffff" />, label: 'Express.js' },
-    { icon: <SiSocketdotio color="#010101" />, label: 'Socket.IO' },
+    { icon: <SiSocketdotio color="#eee7e7ff" />, label: 'Socket.IO' },
   ],
   Databases: [
     { icon: <SiMongodb color="#4db33d" />, label: 'MongoDB' },
@@ -24,6 +25,13 @@ const skillGroups = {
     { icon: <SiPostman color="#ff6c37" />, label: 'Postman' },
     { icon: <SiCplusplus color="#00599c" />, label: 'C/C++' },
   ],
+  Paltforms:[
+    { icon: <VscVscode color="#007ACC" />, label: 'VS Code' },
+    { icon: <SiCloudinary color="#ff6c37" />, label: 'Cloudinary' },
+    { icon: <SiNetlify color="#f34f29" />, label: 'Netlify' },
+    { icon: <SiRender color="#eee7e7ff" />, label: 'Render' },
+  ],
+  
 };
 
 const Skills = () => {

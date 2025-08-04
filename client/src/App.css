@@ -50,11 +50,17 @@ body {
   color: #00ffa2 !important;
 }
 
+.active-nav {
+  color: #00ffc3 !important;
+  border-bottom: 2px solid #00ffc3;
+}
+
 .nav-link {
   color: #f0f6fc !important;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .nav-link:hover {
@@ -180,4 +186,8 @@ body {
 
 .swiper-pagination-bullet {
   background: #00ffc3 !important;
+}
+
+section {
+  min-height: 60vh; 
 }

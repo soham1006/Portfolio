@@ -3,9 +3,9 @@ import SwiperCarousel from '../components/SwiperCarousel';
 
 const certificates = [
   {
-    title: "IBM Z Datathon 2024",
-    image: "/certificates/IBM'24.jpg",
-    link: "/certificates/hacktoberfest2024.pdf"
+    title: "Nullclass Internship",
+    image: "/certificates/Nullclass.jpg",
+    link: "/certificates/Nullclass.pdf"
   },
   {
     title: "ATF 2024",
@@ -13,9 +13,9 @@ const certificates = [
     link: "/certificates/ai-bootcamp.pdf"
   },
   {
-    title: "GSSoC 2024",
-    image: "/certificates/Gssoc'24.jpg",
-    link: "/certificates/open-source-summit.pdf"
+    title: "Web Development",
+    image: "/certificates/webdev.jpg",
+    link: "/certificates/webdev.pdf"
   }
 ];
 

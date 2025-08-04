@@ -5,7 +5,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/projects')
+    fetch('${process.env.REACT_APP_API_BASE_URL}/api/projects')
       .then(res => res.json())
       .then(data => setProjects(data))
       .catch(err => console.error(err));

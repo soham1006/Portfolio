@@ -36,7 +36,7 @@ const About = () => {
   {/* Resume Button */}
   <div className="mt-4">
     <a
-  href="/Resume.pdf"
+  href="/Soham'sResume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="btn btn-outline-success px-4 py-2 rounded-pill"
